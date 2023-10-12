@@ -1,21 +1,21 @@
 # loop
 
 # for
-print('# for')
+print("# for")
 
-for i in range(1, 6, 2): # start, end, step
+for i in range(1, 6, 2):  # start, end, step
     print(i)
 
 count = 0
-word = 'Hello!'
+word = "Hello!"
 for i in word:
-    if i == 'l':
+    if i == "l":
         count += 1
 
-print('Count: ', count)
+print("Count: ", count)
 
 # while
-print('# while')
+print("# while")
 
 i = 5
 while i < 15:
@@ -28,7 +28,7 @@ while i < 15:
 #         is_has_car = False
 
 for i in range(1, 10):
-    if i == 5: 
+    if i == 5:
         break
 
     if i % 2 == 0:
@@ -39,11 +39,11 @@ for i in range(1, 10):
 # find symbol in string
 
 found = None
-for i in 'Hello':
-    if i == 'l':
+for i in "Hello":
+    if i == "l":
         found = True
         break
 else:
     found = False
 
-print('Found: ', found)
+print("Found: ", found)
